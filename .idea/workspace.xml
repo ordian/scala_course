@@ -63,7 +63,7 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="20600">
+            <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="20000">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -594,12 +594,12 @@
       <workItem from="1410162436915" duration="4913000" />
       <workItem from="1410242737560" duration="254000" />
       <workItem from="1410243002434" duration="16817000" />
-      <workItem from="1410342669502" duration="27086000" />
+      <workItem from="1410342669502" duration="27733000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73047000" />
+    <option name="totallyTimeSpent" value="73694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="0" width="1370" height="769" extended-state="6" />

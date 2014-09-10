@@ -1,4 +1,0 @@
-// dmitry.naydanov@jetbrains.com
-
-
-

@@ -1,6 +1,7 @@
 package spbau.scala.ordian.task01
 
 import scala.util.Random
+import Util.isEven
 
 abstract class Scheme
 case class Res(v: Int) extends Scheme

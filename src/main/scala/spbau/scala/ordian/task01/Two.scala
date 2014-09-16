@@ -1,6 +1,4 @@
-package spbau.scala.ordian.first
-
-import spbau.scala.ordian.first.Util.isEven
+package spbau.scala.ordian.task01
 
 import scala.util.Random
 

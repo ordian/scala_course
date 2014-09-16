@@ -1,7 +1,6 @@
-package spbau.scala.ordian.first
+package spbau.scala.ordian.task01
 
 import scala.annotation.tailrec
-import spbau.scala.ordian.first.Util.isEven
 
 object One extends App {
   assert(gcd(-14, 21) == 7)

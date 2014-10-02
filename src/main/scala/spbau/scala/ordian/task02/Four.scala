@@ -7,17 +7,17 @@ object Four extends App {
   solve(42) take 42 foreach println
 
   abstract class Expression {
-    def value(): Int
+    def value: Int
   }
   case class Num(value: Int) extends Expression {
     override def toString: String = value.toString
   }
   case class Op(left: Expression, op: Char, right: Expression) extends Expression {
     override def toString: String = '(' + left.toString + ' ' + op + ' ' + right.toString + ')'
-    override def value(): Int = op match {
-      case '+' => left.value() + right.value()
-      case '-' => left.value() - right.value()
-      case '*' => left.value() * right.value()
+    override val value: Int = op match {
+      case '+' => left.value + right.value
+      case '-' => left.value - right.value
+      case '*' => left.value * right.value
       case _ => throw new UnsupportedOperationException
     }
   }
@@ -36,6 +36,6 @@ object Four extends App {
           })
         }
     }
-    generate(0, numbers.length) filter (_.value() == number)
+    generate(0, numbers.length) filter (_.value == number)
   }
 }

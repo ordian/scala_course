@@ -13,7 +13,7 @@ object Four extends App {
     override def toString: String = value.toString
   }
   case class Op(left: Expression, op: Char, right: Expression) extends Expression {
-    override def toString: String = "(%s %c %s)".format(left, op, right)
+    override def toString: String = f"($left $op $right)"
     override val value: Int = op match {
       case '+' => left.value + right.value
       case '-' => left.value - right.value

@@ -5,7 +5,7 @@ import scala.annotation.tailrec
 /* WARNING: magic constants! */
 object One extends App {
 
-  print(f"${squareRootDigits(2).head}.")
+  print(s"${squareRootDigits(2).head}.")
   squareRootDigits(2).tail take 73 foreach print
 
   def squareRootDigits(number: Int): Stream[Int] = {

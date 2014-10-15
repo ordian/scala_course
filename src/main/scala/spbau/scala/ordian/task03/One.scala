@@ -20,10 +20,10 @@ object ExpressionEvaluator {
 }
 
 /*
-* LL(1) grammar for reverse polish arithmetic
-* E -> SR | n
-* S -> nEo
-* R -> EoR | epsilon
+* LL(k) grammar for reverse polish arithmetic:
+*   E -> SR | n
+*   S -> nEo
+*   R -> EoR | epsilon
 * n is number
 * o is operation
 */

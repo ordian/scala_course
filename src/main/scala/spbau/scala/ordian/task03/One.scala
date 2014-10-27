@@ -30,10 +30,9 @@ object ExpressionEvaluator {
 object UglyReversePolishParser extends JavaTokenParsers {
   type Operation = (Expression, Expression) => Expression
 
-  def e: Parser[Expression] = (s ~ r | n) ^^ {
-    case n: Num => n
-    case (s: Expression) ~ (r: List[(Expression, Operation)]) => r.foldLeft(s)({ case (c, (t, o)) => o(c, t) })
-  }
+  def e: Parser[Expression] = s ~ r ^^ {
+    case s ~ r => r.foldLeft(s)({ case (c, (t, o)) => o(c, t) })
+  } | n
   def s: Parser[Expression] = n ~ e ~ o ^^ { case n ~ e ~ o => o(n, e) }
   def r: Parser[List[(Expression, Operation)]] = rep(e ~ o) ^^ {
     case terms => terms.map({ case e ~ o => (e, o) })

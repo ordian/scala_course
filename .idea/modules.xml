@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ProjectModuleManager">
-    <modules />
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Clojure/Clojure.iml" filepath="$PROJECT_DIR$/Clojure/Clojure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_course.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_course-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_course-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vm_languages_course.iml" filepath="$PROJECT_DIR$/.idea/modules/vm_languages_course.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/vm_languages_course-build.iml" filepath="$PROJECT_DIR$/.idea/modules/vm_languages_course-build.iml" />
+    </modules>
   </component>
 </project>
-

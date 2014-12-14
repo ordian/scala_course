@@ -58,9 +58,12 @@
   (println b)
   b)
 
-(or false (test-fn false) (test-fn true))
+(my-or false (test-fn true) (test-fn false))
 
 ;; 3.5
 (defmacro my-let [bindings & body]
   "no check"
-  (`(let* ~(destructure bindings) ~@body)))
+  `(let* ~(destructure bindings) ~@body))
+
+(my-let [x 2 y 3]
+        (println x y))

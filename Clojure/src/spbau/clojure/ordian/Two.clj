@@ -74,8 +74,8 @@
 
 (defmacro my-let [bindings & body]
   "no check"
-  (def args (vec (take-nth 2 bindings)))
-  (def values (vec (take-nth 2 (rest bindings))))
+  (def args (take-nth 2 bindings))
+  (def values (take-nth 2 (rest bindings)))
   `((fn [~@args] ~@body)
      ~@values))
 

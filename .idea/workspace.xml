@@ -114,8 +114,8 @@
       <file leaf-file-name="Two.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04368932" vertical-offset="1116" max-vertical-offset="1584">
-              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.51941746" vertical-offset="1172" max-vertical-offset="1584">
+              <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -843,7 +843,7 @@
       <workItem from="1418575575972" duration="623000" />
       <workItem from="1418636655483" duration="310000" />
       <workItem from="1418643584737" duration="211000" />
-      <workItem from="1418645527476" duration="7855000" />
+      <workItem from="1418645527476" duration="7907000" />
     </task>
     <task id="LOCAL-00001" summary="task04">
       <created>1418473069947</created>
@@ -875,11 +875,17 @@
       <option name="project" value="LOCAL" />
       <updated>1418645880549</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="clojure let fix&#10;">
+      <created>1418653670032</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1418653670032</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31297000" />
+    <option name="totallyTimeSpent" value="31349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1372" height="749" extended-state="6" />
@@ -971,7 +977,8 @@
     <MESSAGE value="clojure macros test" />
     <MESSAGE value="project structure fix" />
     <MESSAGE value="clojure assert fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="clojure assert fix" />
+    <MESSAGE value="clojure let fix&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="clojure let fix&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1369,8 +1376,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04368932" vertical-offset="1116" max-vertical-offset="1584">
-          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.51941746" vertical-offset="1172" max-vertical-offset="1584">
+          <caret line="77" column="42" selection-start-line="77" selection-start-column="42" selection-end-line="77" selection-end-column="42" />
           <folding />
         </state>
       </provider>

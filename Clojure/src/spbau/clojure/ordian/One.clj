@@ -18,7 +18,7 @@
   (let [f #(-> (* (* n n) n))]
     (f)))
 
-(assert (= 3 (cube-anonymous (+ 1 1))))
+(assert (= 8 (cube-anonymous (+ 1 1))))
 
 ;; 4
 (defn reverse-and-concat [coll1 coll2]

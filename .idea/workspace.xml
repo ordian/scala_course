@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a9cd11d-9340-4036-a6ca-498f41828220" name="Default" comment="">
+    <list default="true" id="3a9cd11d-9340-4036-a6ca-498f41828220" name="Default" comment="project structure fix">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj" afterPath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FirstScala.iws" />
@@ -116,7 +114,7 @@
       <file leaf-file-name="Two.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.798722" vertical-offset="706" max-vertical-offset="1332">
+            <state vertical-scroll-proportion="1.2135923" vertical-offset="706" max-vertical-offset="1332">
               <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
               <folding />
             </state>
@@ -329,7 +327,7 @@
       <recent name="$PROJECT_DIR$/project" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.One">
+  <component name="RunManager" selected="Clojure Application.One">
     <configuration default="false" name="TwoTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -845,7 +843,7 @@
       <workItem from="1418575575972" duration="623000" />
       <workItem from="1418636655483" duration="310000" />
       <workItem from="1418643584737" duration="211000" />
-      <workItem from="1418645527476" duration="285000" />
+      <workItem from="1418645527476" duration="342000" />
     </task>
     <task id="LOCAL-00001" summary="task04">
       <created>1418473069947</created>
@@ -865,15 +863,21 @@
       <option name="project" value="LOCAL" />
       <updated>1418554671266</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="project structure fix">
+      <created>1418645828817</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1418645828817</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23727000" />
+    <option name="totallyTimeSpent" value="23784000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1372" height="749" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -895,7 +899,7 @@
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32771823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32771823" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -959,7 +963,8 @@
     <MESSAGE value="task04" />
     <MESSAGE value="clojure" />
     <MESSAGE value="clojure macros test" />
-    <option name="LAST_COMMIT_MESSAGE" value="clojure macros test" />
+    <MESSAGE value="project structure fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="project structure fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1356,7 +1361,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.798722" vertical-offset="706" max-vertical-offset="1332">
+        <state vertical-scroll-proportion="1.2135923" vertical-offset="706" max-vertical-offset="1332">
           <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
           <folding />
         </state>

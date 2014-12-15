@@ -61,9 +61,23 @@
 (my-or false (test-fn true) (test-fn false))
 
 ;; 3.5
+;(let ((<var1> <exp1>) ... (<varn> <expn>))
+;  <body>)
+;
+;is equivalent to
+;
+;((lambda (<var1> ... <varn>)
+;         <body>)
+;  <exp1>
+;
+;  <expn>)
+
 (defmacro my-let [bindings & body]
   "no check"
-  `(let* ~(destructure bindings) ~@body))
+  (def args (vec (take-nth 2 bindings)))
+  (def values (vec (take-nth 2 (rest bindings))))
+  `((fn [~@args] ~@body)
+     ~@values))
 
-(my-let [x 2 y 3]
-        (println x y))
+(macroexpand (my-let [x 2 y 3]
+        (println x y)))

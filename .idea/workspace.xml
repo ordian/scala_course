@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3a9cd11d-9340-4036-a6ca-498f41828220" name="Default" comment="project structure fix">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj" afterPath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj" />
+    <list default="true" id="3a9cd11d-9340-4036-a6ca-498f41828220" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj" afterPath="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FirstScala.iws" />
@@ -104,7 +104,7 @@
       <file leaf-file-name="One.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1026">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
               <caret line="51" column="25" selection-start-line="51" selection-start-column="25" selection-end-line="51" selection-end-column="25" />
               <folding />
             </state>
@@ -114,8 +114,8 @@
       <file leaf-file-name="Two.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2135923" vertical-offset="706" max-vertical-offset="1332">
-              <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.04368932" vertical-offset="1116" max-vertical-offset="1584">
+              <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -141,9 +141,9 @@
         <option value="$PROJECT_DIR$/macroTest/main/src/spbau/scala/ordian/task04/Printf.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/spbau/scala/ordian/task04/Two.scala" />
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj" />
         <option value="$PROJECT_DIR$/src/main/scala/spbau/scala/ordian/task02/Two.scala" />
         <option value="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj" />
+        <option value="$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj" />
       </list>
     </option>
   </component>
@@ -327,7 +327,7 @@
       <recent name="$PROJECT_DIR$/project" />
     </key>
   </component>
-  <component name="RunManager" selected="Clojure Application.One">
+  <component name="RunManager" selected="Clojure Application.Two">
     <configuration default="false" name="TwoTest" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -784,8 +784,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.One" />
-        <item index="1" class="java.lang.String" itemvalue="Clojure Application.Two" />
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.Two" />
+        <item index="1" class="java.lang.String" itemvalue="Application.One" />
         <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
         <item index="3" class="java.lang.String" itemvalue="Application.Printf" />
         <item index="4" class="java.lang.String" itemvalue="Application.TwoTest" />
@@ -843,7 +843,7 @@
       <workItem from="1418575575972" duration="623000" />
       <workItem from="1418636655483" duration="310000" />
       <workItem from="1418643584737" duration="211000" />
-      <workItem from="1418645527476" duration="342000" />
+      <workItem from="1418645527476" duration="7855000" />
     </task>
     <task id="LOCAL-00001" summary="task04">
       <created>1418473069947</created>
@@ -869,15 +869,21 @@
       <option name="project" value="LOCAL" />
       <updated>1418645828817</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="clojure assert fix">
+      <created>1418645880549</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1418645880549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23784000" />
+    <option name="totallyTimeSpent" value="31297000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="22" width="1372" height="749" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -964,7 +970,8 @@
     <MESSAGE value="clojure" />
     <MESSAGE value="clojure macros test" />
     <MESSAGE value="project structure fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="project structure fix" />
+    <MESSAGE value="clojure assert fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="clojure assert fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1328,13 +1335,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/Clojure/lib/clojure.jar!/clojure/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.6362153" vertical-offset="75252" max-vertical-offset="131904">
-          <caret line="4159" column="6" selection-start-line="4159" selection-start-column="6" selection-end-line="4159" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/spbau/scala/ordian/task04/Two.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="327" max-vertical-offset="738">
@@ -1351,6 +1351,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/Clojure/lib/clojure.jar!/clojure/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="116.34586" vertical-offset="0" max-vertical-offset="131904">
+          <caret line="2579" column="6" selection-start-line="2579" selection-start-column="6" selection-end-line="2579" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/One.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1026">
@@ -1361,8 +1369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Clojure/src/spbau/clojure/ordian/Two.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2135923" vertical-offset="706" max-vertical-offset="1332">
-          <caret line="67" column="13" selection-start-line="67" selection-start-column="13" selection-end-line="67" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.04368932" vertical-offset="1116" max-vertical-offset="1584">
+          <caret line="63" column="16" selection-start-line="63" selection-start-column="16" selection-end-line="63" selection-end-column="16" />
           <folding />
         </state>
       </provider>
